@@ -44,9 +44,9 @@ li {
 }
 
 header {
-	height: 10vh;
+
 	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,103,185,1) 0%, rgba(195,155,228,1) 100%);;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,103,185,1) 0%, rgba(195,155,228,1) 100%);
 	height: 120px;
 }
 
