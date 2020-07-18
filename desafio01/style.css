@@ -1,0 +1,204 @@
+/* ---------- GENERAL ----------*/
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	color:#505050;
+	background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+	color:#5967B8;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+header {
+	height: 10vh;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,103,185,1) 0%, rgba(195,155,228,1) 100%);;
+	height: 120px;
+}
+
+/* ---------- MAIN MENU ----------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+	height: 80px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+.main-nav {
+	float: right;
+	margin-top: 40px;
+
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a {
+	color: #fff;
+	text-decoration: none;
+	transition: linear 0.3s;
+}
+
+.main-nav li a:hover {
+	color: #5967B9; 
+
+}
+
+#menu-item-contato button {
+	background-color: #5967B9;
+    padding: 10px 15px 10px 15px;
+    border-radius: 49px;
+    outline: none;
+    border: solid 1px #5967b8;
+    color: #fff;
+
+}
+
+#menu-item-contato button:hover {
+	background-color: #fff;
+    color: #5967B9;
+    cursor: pointer;
+    border: solid 1px #fff;
+    transition: linear 0.3s
+}
+
+/* ---------- CONTENT ----------*/
+
+.main-text {
+	margin-bottom: 50px;
+}
+
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+}
+
+.content-box {
+	width: 75%;
+	float: left;
+	padding-right: 100px;
+	padding-bottom: 40px;
+}
+
+
+/* ---------- AUTHOR INFO ----------*/
+
+
+.author-box img {
+	height: 100px;
+	widows: 100px;
+	border-radius: 50px;
+	float: left;
+}
+
+.author-box {
+	border-top: 1px solid #e6e6e6;
+	padding-top: 20px;
+}
+
+.author {
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+
+.author-text {
+	font-weight: 600;
+	font-size: 20px;
+	color: #5967B8;
+}
+
+.author-desc {
+	color: #707070;
+	font-style: italic;
+}
+
+
+/* ---------- SIDEBAR ----------*/
+
+.sidebar {
+	width: 25%;
+	float: left;
+	padding-right: 70px;
+}
+
+.sidebar li {
+    border-bottom: solid 1px #e6e6e6;
+    padding-bottom: 10px;
+}
+
+.sidebar li:last-child {
+    border-bottom: none;
+}
+
+.sidebar a, .main-menu ul li a {
+    color: inherit; 
+	text-decoration: inherit;
+}
+
+/* ---------- FOOTER ----------*/
+
+
+.footer {
+	padding-top: 30px;
+	text-align: right;
+}
+
+/* ---------- SOCIAL MEDIA ----------*/
+
+
+.social-media-icons a {
+	font-size: 25px;
+	color: #B7B7B7;
+	padding: 5px;
+	text-decoration: none;
+}
