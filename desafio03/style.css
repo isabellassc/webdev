@@ -224,6 +224,7 @@ textarea {
 form label {
     margin-left: 20px;
     font-weight: bold;
+    color: #797979;
 }
 
 form {
@@ -233,6 +234,12 @@ form {
 	margin: 0 auto;
 	width: 50%;
     display: grid;
+}
+
+form h2 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
 }
 
 .contact-form {
